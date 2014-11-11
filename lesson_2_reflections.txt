@@ -4,3 +4,18 @@ We need to initialise a repository to indicate that it'll serve as our git repos
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It is an intermediate stage in between working directory and repository. It's just to make sure what you're doing is right.
+
+How can you use the staging area to make sure you have one commit per logical change?
+It's like a cache so using git diff command shows us the changes, which can be checked to be of the same logic
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches help organize and separate the experimental or deviant parts from the mainstream project.
+
+How do the diagrams help you visualize the branch structure?
+We are able to know all the branches and divisions using the graphs.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The head becomes one from the checked out branch. We represent it the way we do for convenience.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git does automatic merging too!? Manual merges show if we have different versions of the common files.
