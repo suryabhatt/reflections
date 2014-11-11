@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+a .git file is added into the repository and it says there are untracked files in that directory.
+We need to initialise a repository to indicate that it'll serve as our git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is an intermediate stage in between working directory and repository. It's just to make sure what you're doing is right.
